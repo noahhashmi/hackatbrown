@@ -13,6 +13,14 @@
 		A40B02F21C667B04003C7861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40B02F11C667B04003C7861 /* Assets.xcassets */; };
 		A40B02F51C667B04003C7861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B02F31C667B04003C7861 /* LaunchScreen.storyboard */; };
 		A40B03001C667B05003C7861 /* MyMeal_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B02FF1C667B05003C7861 /* MyMeal_2_0Tests.swift */; };
+		A40B030B1C6689F3003C7861 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B030A1C6689F3003C7861 /* MenuViewController.swift */; };
+		A40B030D1C668AC8003C7861 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B030C1C668AC8003C7861 /* Menu.swift */; };
+		A40B030F1C668B5B003C7861 /* SampleDishData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B030E1C668B5B003C7861 /* SampleDishData.swift */; };
+		A4EFE0CF1C66B42C0052CFC3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EFE0CE1C66B42C0052CFC3 /* Storyboard.storyboard */; };
+		A4EFE0D11C66B43F0052CFC3 /* MyMeal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EFE0D01C66B43F0052CFC3 /* MyMeal.storyboard */; };
+		A4EFE1011C66CE020052CFC3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EFE1001C66CE020052CFC3 /* DetailViewController.swift */; };
+		A4EFE1031C66F48C0052CFC3 /* FOOD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4EFE1021C66F48C0052CFC3 /* FOOD.jpg */; };
+		A4EFE1051C66F4B50052CFC3 /* FOOD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4EFE1041C66F4B50052CFC3 /* FOOD.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		A40B02FB1C667B05003C7861 /* MyMeal 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyMeal 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40B02FF1C667B05003C7861 /* MyMeal_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeal_2_0Tests.swift; sourceTree = "<group>"; };
 		A40B03011C667B05003C7861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40B030A1C6689F3003C7861 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A40B030C1C668AC8003C7861 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A40B030E1C668B5B003C7861 /* SampleDishData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDishData.swift; sourceTree = "<group>"; };
+		A4EFE0CE1C66B42C0052CFC3 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A4EFE0D01C66B43F0052CFC3 /* MyMeal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MyMeal.storyboard; path = ../try2/MyMeal.storyboard; sourceTree = "<group>"; };
+		A4EFE1001C66CE020052CFC3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A4EFE1021C66F48C0052CFC3 /* FOOD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FOOD.jpg; path = ../../../FOOD.jpg; sourceTree = "<group>"; };
+		A4EFE1041C66F4B50052CFC3 /* FOOD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FOOD.jpg; path = ../../../FOOD.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 				A40B02E91C667B04003C7861 /* MyMeal 2.0 */,
 				A40B02FE1C667B05003C7861 /* MyMeal 2.0Tests */,
 				A40B02E81C667B04003C7861 /* Products */,
+				A4EFE0D01C66B43F0052CFC3 /* MyMeal.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +97,13 @@
 				A40B02EA1C667B04003C7861 /* AppDelegate.swift */,
 				A40B02EC1C667B04003C7861 /* ViewController.swift */,
 				A40B02EE1C667B04003C7861 /* Main.storyboard */,
+				A4EFE1021C66F48C0052CFC3 /* FOOD.jpg */,
+				A4EFE1001C66CE020052CFC3 /* DetailViewController.swift */,
+				A4EFE0CE1C66B42C0052CFC3 /* Storyboard.storyboard */,
+				A40B030C1C668AC8003C7861 /* Menu.swift */,
+				A40B030E1C668B5B003C7861 /* SampleDishData.swift */,
+				A40B030A1C6689F3003C7861 /* MenuViewController.swift */,
+				A4EFE1041C66F4B50052CFC3 /* FOOD.jpg */,
 				A40B02F11C667B04003C7861 /* Assets.xcassets */,
 				A40B02F31C667B04003C7861 /* LaunchScreen.storyboard */,
 				A40B02F61C667B04003C7861 /* Info.plist */,
@@ -177,8 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40B02F51C667B04003C7861 /* LaunchScreen.storyboard in Resources */,
+				A4EFE0D11C66B43F0052CFC3 /* MyMeal.storyboard in Resources */,
+				A4EFE1051C66F4B50052CFC3 /* FOOD.jpg in Resources */,
+				A4EFE0CF1C66B42C0052CFC3 /* Storyboard.storyboard in Resources */,
 				A40B02F21C667B04003C7861 /* Assets.xcassets in Resources */,
 				A40B02F01C667B04003C7861 /* Main.storyboard in Resources */,
+				A4EFE1031C66F48C0052CFC3 /* FOOD.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40B030F1C668B5B003C7861 /* SampleDishData.swift in Sources */,
 				A40B02ED1C667B04003C7861 /* ViewController.swift in Sources */,
+				A40B030B1C6689F3003C7861 /* MenuViewController.swift in Sources */,
+				A4EFE1011C66CE020052CFC3 /* DetailViewController.swift in Sources */,
+				A40B030D1C668AC8003C7861 /* Menu.swift in Sources */,
 				A40B02EB1C667B04003C7861 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +419,7 @@
 				A40B03061C667B05003C7861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A40B03071C667B05003C7861 /* Build configuration list for PBXNativeTarget "MyMeal 2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +428,7 @@
 				A40B03091C667B05003C7861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
